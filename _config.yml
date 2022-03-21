@@ -15,8 +15,8 @@ plainwhite:
     - title: Vulnhub Walkthroughs
       url: "/Vulnhub"
   name: blackbash0x01
-  tagline: Hacker wannabe!
-  tagline: Cybersecurity Researcher
+  tagline1: Hacker wannabe!
+  tagline2: Cybersecurity Researcher
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
