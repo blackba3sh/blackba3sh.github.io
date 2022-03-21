@@ -1,10 +1,7 @@
-title: blackbash0x01 blog!
-author: blackbash0x01
-email: aykalamtest39@gmail.com
+title: BlackBash0x01
+author: BlackBash0x01
+email: motamer27@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Minima date format
@@ -12,37 +9,37 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: BlackBash0x01
-  tagline: Hacker Wannabe
-  tagline1: Cybersecurity Researcher
-  tagline2: CTF addict!
-  tagline3: Computer Science Student
-
+  navigation:
+    - title: HackTheBox Walkthroughs
+      url: "/HackTheBox"
+    - title: Vulnhub Walkthroughs
+      url: "/Vulnhub"
+    
+      
+  name: 
+  tagline: Hacker wannabe.
+  tagline2: Cybersecurity Researcher
+  tagline3: CTF addict!
+  tagline4: Computer Science Student
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
-  portfolio_image: "assets/a.png" # the path from the base directory of the site to the image to display (no / at the start)
-  html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
-  condensed_mobile:
-    #- home
-    - page
-    - post
+
   # generate social links in footer
   social_links:
-    twitter: samarsault
+    twitter: blackbash0x01
     github:  blackbash0x01
-    linkedIn: in/samarsault
-    #dribbble: jekyll
-    #flickr:   jekyll
-    #instagram: jekyll
-    #pinterest: jekyll
-    #youtube: jekyll
-    #facebook: jekyll
-    #soundcloud: jekyll
-    #telegram: jekyll
-    #gitlab: jekyll
-    #email: jekyll
+    linkedIn: Mohamed Tamer
+    rss: rss
+    # dribbble: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # facebook: jekyll
+    # soundcloud: jekyll
+    # telegram: jekyll
 
     # Mastodon instances
     # mastodon:
@@ -57,7 +54,7 @@ plainwhite:
 # - about.md
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: plainwhite
 
 plugins:
   - jekyll-seo-tag
