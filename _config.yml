@@ -16,9 +16,9 @@ plainwhite:
       url: "/Vulnhub"
   name: blackbash
   tagline: Hacker wannabe. 
-  security Researcher
-  CTF addict!
-  Computer Science Student
+  tagline2: security Researcher
+  tagline3: CTF addict!
+  tagline4: Computer Science Student
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
