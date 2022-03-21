@@ -17,15 +17,15 @@ plainwhite:
     
       
   name: 
-  tagline1: Hacker wannabe.
-  tagline2: Cybersecurity Researcher
-  tagline3: CTF addict!
-  tagline4: Computer Science Student
+  tagline: Hacker wannabe.
+  tagline: Cybersecurity Researcher
+  tagline: CTF addict!
+  tagline: Computer Science Student
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
-
+  portfolio_image: "assets/a.png"
   # generate social links in footer
   social_links:
     twitter: blackbash0x01
