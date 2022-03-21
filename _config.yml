@@ -14,9 +14,9 @@ sass:
 plainwhite:
   name: BlackBash0x01
   tagline: Hacker Wannabe
-  tagline2: Cybersecurity Researcher
-  tagline3: CTF addict!
-  tagline4: Computer Science Student
+  tagline1: Cybersecurity Researcher
+  tagline2: CTF addict!
+  tagline3: Computer Science Student
 
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
