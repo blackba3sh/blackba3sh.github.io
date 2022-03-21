@@ -14,9 +14,7 @@ plainwhite:
       url: "/HackTheBox"
     - title: Vulnhub Walkthroughs
       url: "/Vulnhub"
-    
-      
-  name: blacbash0x01
+  name: blackbash0x01
   tagline: Hacker wannabe.
   tagline2: Cybersecurity Researcher
   tagline3: CTF addict!
@@ -25,6 +23,7 @@ plainwhite:
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
+
   portfolio_image: "assets/a.png"
   # generate social links in footer
   social_links:
