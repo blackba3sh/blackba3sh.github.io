@@ -6,11 +6,6 @@ categories: Vilnhub writeup
 ---
 
 
-
-
-
-
-
 ## starting with a regular nmap 
 ## sudo nmap -sC -sV -oA nmap/mrrobot 192.168.56.3
 
@@ -58,7 +53,7 @@ ster-root.out
 
 ## it's found a /wp-admin dir which indicates this is a wordpress and it's have a /blog dir too so let's take a look but first fire some recon and we will use wpscan
 ## since i don't have any usernames let's try to find a way that let us to enumrate valid usernames and try basic login with admin:admin and it respond with 
-![[Pasted image 20220323235951.png]]
+![[Pasted image 20220323235951.png]](/_posts/Pasted image 20220323235951.png)
 
 invalid username so this good we have a way to know valid usernames i tried some usernames from mrrobot series itself and after a while i get this when try elliot as username
 
