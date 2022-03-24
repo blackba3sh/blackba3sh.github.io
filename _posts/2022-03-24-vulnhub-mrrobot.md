@@ -93,6 +93,7 @@ export TERM=xterm // so i can clear the screen
 ##  so let's go to the/home/ directory, where there was a single home directory for a user named robot; which included the second key! found 2 files one of them is the second flag we don't have read access and the other is password.raw-md5 which contain robot:c3fcd3d76192e4007dfb496cca67e13b username and this looks like a md5 hash because this is 32 char and this is the md5 structure let's google this hash and see 
 ```# MD5 reverse for c3fcd3d76192e4007dfb496cca67e13b
 
+```bash 
 The MD5 hash:  
 c3fcd3d76192e4007dfb496cca67e13b  
 was succesfully reversed into the string:  
