@@ -41,7 +41,7 @@ Service detection performed. Please report any incorrect results at ht
 
 ## now port 80 is  open and 443 
 ## so lets take a look at both first lets start with 80
-![[1.png]]
+![1.png](/assets/1.png)
 ## it seems just a html page with some javascript but there is no any user input to play with here and looking at port 443 it is the same thing so i run gobuster to discover directories in the background while i try afew things manually
 
 ```bash
