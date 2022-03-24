@@ -51,18 +51,18 @@ ster-root.out
 
 ## first i tried to search for robots.txt and boom we have the first flag of 3 and fsociety dictionary so let's grap those 2 interesting files 
 ## flag : 073403c8a58a1f80d943455fb30724b9
-![[2.png]]
+![2.png](/assets/2.png)
 
 ## now i try to think why they give me this huge wordlist so i'm gusseing the next step is to perform a bruteforce attack but where? and we still haven't any login pages or usernames so let's back to our recon in the background gobuster
 
 
 ## it's found a /wp-admin dir which indicates this is a wordpress and it's have a /blog dir too so let's take a look but first fire some recon and we will use wpscan
 ## since i don't have any usernames let's try to find a way that let us to enumrate valid usernames and try basic login with admin:admin and it respond with 
-![[6.png]]
+![6.png](/assets/6.png)
 
 invalid username so this good we have a way to know valid usernames i tried some usernames from mrrobot series itself and after a while i get this when try elliot as username
 
-![[5.png]]
+![5.png](/assets/5.png)
 
 ## now we have a valid username so let's bruteforce the password with this wordlist but first let's pick the uniqe values from this list cuz it's very big and it would take alot of time 
 ```bash
@@ -73,15 +73,15 @@ cat fsocity.dic | sort -u | uniq -c | awk '{print $2}' > sorted.dic
 wpscan --url http://192.168.56.3/wp-login.php -U elliot -P sorted.dic
 ```
 
-![[7.png]]
+![7.png](/assets/7.png)
 
 ## Username: elliot, Password: ER28-0652 let's login to wordpress 
-![[9.png]]
+![9.png](/assets/9.png)
 ## look's like the user elliot is admin so we have a way to get a reverse shell This can be done very easily by editing a .php that is available already in the wordpress site and there is alot of other ways just a small google search. Click on Appearence →Editor →Choose any php file in my case i’ll choose 404.php and replace the content with  php reverse shell and save now browse the file you edited 
 http://192.168.56.3/wordpress/wp-content/themes/twentyfifteen/404.php
 
 ## and boom shell as daemon user 
-![[10.png]]
+![10.png](/assets/10.png)
 
 ## getting a proper tty shell 
 ```bash
@@ -123,12 +123,12 @@ chmod +x linpeas.sh // make it executable
 ./linpeas.sh // run it
 ```
 
-![[11.png]]
+![11.png](/assets/11.png)
 
 ##  It had an old version of nmap running so let's go to gtfobins and type nmap 
 https://gtfobins.github.io/
 
-![[12.png]]
+![12.png](/assets/12.png)
 
 ```bash
 robot@linux:/dev/shm$ nmap --interactive  
