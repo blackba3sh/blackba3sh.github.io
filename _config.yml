@@ -1,5 +1,5 @@
-title: BlackBash0x01
-author: BlackBash0x01
+title:  blackba3sh 
+author:  blackba3sh 
 email: motamer27@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
 show_excerpts: true # set to true to show excerpts on the homepage
@@ -24,8 +24,8 @@ plainwhite:
   portfolio_image: "assets/a.png"
   # generate social links in footer
   social_links:
-    twitter: blackbash0x01
-    github:  blackbash0x01
+    twitter:  blackba3sh 
+    github:   blackba3sh 
     linkedIn: Mohamed Tamer
     rss: rss
     # dribbble: jekyll
